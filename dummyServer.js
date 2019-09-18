@@ -9,14 +9,16 @@ app.get("/dogs", (req, res, next) => {
 	 res.json(
 		[
 			{
-				"cat0": {
+				"group_0": {
 					"name": "pipo",
 					"age": 4
 				}
 			},
 			{
-				"name": "tobi",
-				"age": 5
+				"group_1": {
+					"name": "tobi",
+					"age": 5
+				}
 			}
 		]
 	 );
