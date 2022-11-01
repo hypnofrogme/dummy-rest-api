@@ -10,7 +10,7 @@ RUN npm install express
 
 ENTRYPOINT node dummyServer.js
 
-EXPOSE 3000
+EXPOSE 80
 
 
 
