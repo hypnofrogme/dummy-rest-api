@@ -4,7 +4,7 @@ RUN apk update
 RUN apk upgrade
 RUN apk add git npm
    
-RUN git clone https://github.com/SergioEstebanP/dummy-rest-api.git
+RUN git clone https://github.com/hypnofrogme/dummy-rest-api.git
 WORKDIR dummy-rest-api
 RUN npm install express
 
